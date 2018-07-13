@@ -1,9 +1,15 @@
 #include example.h
 
-void foo(){
-
+void foo()
+{
+	for (int i = 0; i < 100; i++)
+	{
+		//TODO: iterate
+	}
 }
 
-int foobar(){
-	return 0;
+int foobar(char a)
+{
+	char b = a;
+	return b;
 }
